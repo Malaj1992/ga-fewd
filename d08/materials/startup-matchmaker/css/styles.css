@@ -1,0 +1,98 @@
+*{font-family: Arial}
+
+
+.container{
+  background-color: black;
+}
+
+.logo{
+  font-size: 36px;
+  font-weight: bold;
+  color: gold;
+  background-color: black;
+}
+
+.nav{
+  float: right;
+  background-color: black;
+  color: white;
+}
+
+ul {
+  color: white;
+  float: right;
+}
+
+li {
+  display: inline-block;
+  margin: 10px;
+}
+
+.headline{
+  background-color: silver;
+  text-align: center;
+  font-style: italic;
+  font-weight: bold;
+  font-size: 24px;
+  padding: 12px;
+  clear: both;
+}
+
+.strikethrough{
+  border-bottom: 1px solid black;
+}
+
+.main-text{
+  float: right;
+  color: white;
+  transparency: 50%;
+}
+
+h3{
+  
+  
+}
+p{
+  
+}
+
+.profile {
+  
+}
+
+.mainbuttons {
+  background-color: white;
+  
+}
+.columns {
+  
+}
+
+.createprofile{
+  
+}
+
+h4{
+  
+}
+
+button{
+  
+}
+
+.finddeveloper{
+  
+}
+
+.finddesigner{
+  
+}
+
+footer {
+  background-color: black;
+  color: white;
+  font: Helvetica;
+  font-size: 12pt;
+  padding: 5px;
+  margin-left: 5px;
+}
