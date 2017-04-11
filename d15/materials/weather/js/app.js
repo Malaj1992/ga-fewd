@@ -1,12 +1,8 @@
 
-
-    
 $("button").on("click", function() {
- 	var city = $('input').val();
-
-  $.getJSON("http://samples.openweathermap.org/data/2.5/weather?q="+city+"&appid=bf239dc156a178d81cf16c537f62e05e", function (data) {
-  	console.log(data)
-	});
-  
-  
+  var city = $("input").val();
+  $.getJSON("http://api.openweathermap.org/data/2.5/weather?q=" + city + "&units=imperial&apikey=MYAPIKEY", function(data) {
+    $("h4 .temperature").text(data["main"]["temp"]);
+    $("img.icon").attr("src", "http://openweathermap.org/img/w/" + data["weather"][0].icon + ".png");
+  });
 });

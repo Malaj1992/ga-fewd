@@ -3,14 +3,13 @@ var ny = {
   capital: "Albany",
   governor: "Andrew Cuomo",
   usSenators: ["Chuck Schumer", "Kirsten Gillibrand"]
-  }
+}
 
 var ct = {
   name: "Connecticut",
   capital: "Hartford",
   governor: "Dannel Malloy",
   usSenators: ["Richard Blumenthal", "Christopher S. Murphy"]
-
 }
 
 $("button#ct").on("click", function() {
@@ -28,6 +27,13 @@ $("button#ny").on("click", function() {
   $("li#first-senator").text(ny["usSenators"][0]);
   $("li#second-senator").text(ny["usSenators"][1]);
 });
+
+$.getJSON("http://api.openweathermap.org/data/2.5/weather?q=Versailles,KY&units=imperial&appid=e384c58414771f0e6ffcda4019375e9c", function(monkey) {
+  console.log(monkey["name"]);
+});
+
+
+
 
 
 
