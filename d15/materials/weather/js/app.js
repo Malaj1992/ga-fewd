@@ -6,3 +6,4 @@ $("button").on("click", function() {
     $("img.icon").attr("src", "http://openweathermap.org/img/w/" + data["weather"][0].icon + ".png");
   });
 });
+
